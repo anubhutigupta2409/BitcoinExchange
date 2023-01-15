@@ -64,7 +64,8 @@ price = Amount/Quality;
 "Anubhuti" with "id" = "123" deposits money  
 <img width="191" alt="image" src="https://user-images.githubusercontent.com/56643076/212564620-4ac4e82c-6d21-4d90-9287-d4bfc9c07f41.png">  
 "Akanksha" with "id" = "1234" deposits money  
-<img width="149" alt="image" src="https://user-images.githubusercontent.com/56643076/212564701-38d508eb-fca1-4536-adb3-0069ef67a41c.png"> 
+<img width="149" alt="image" src="https://user-images.githubusercontent.com/56643076/212564701-38d508eb-fca1-4536-adb3-0069ef67a41c.png">  
+
 "Manju" with "id" = "12" deposits money  
 <img width="137" alt="image" src="https://user-images.githubusercontent.com/56643076/212564728-70864ad3-a36e-45b5-834a-f1234fd90db0.png">  
 
