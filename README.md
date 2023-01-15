@@ -52,5 +52,9 @@ price = Amount/Quality;
 
 * Users are added 
   * "Anubhuti" is added
- <img width="313" alt="image" src="https://user-images.githubusercontent.com/56643076/212564389-c01dac14-a881-40ac-9c9c-b9d8a3bc53c7.png">
+ <img width="313" alt="image" src="https://user-images.githubusercontent.com/56643076/212564389-c01dac14-a881-40ac-9c9c-b9d8a3bc53c7.png">  
+  * "Akanksha" is added, where they are prompted with an error if the try to use a userId that is already in use
+<img width="295" alt="image" src="https://user-images.githubusercontent.com/56643076/212564481-13fe21bd-1213-458e-99b4-590403d72771.png">
+  * "Manju" is added  
+<img width="161" alt="image" src="https://user-images.githubusercontent.com/56643076/212564513-3764fae4-99a9-422e-81e1-99acb842563d.png">
 
