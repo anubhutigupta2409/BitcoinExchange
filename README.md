@@ -64,6 +64,6 @@ price = Amount/Quality;
   * `Akanksha` with `id` = `1234` deposits money  
 <img width="149" alt="image" src="https://user-images.githubusercontent.com/56643076/212564701-38d508eb-fca1-4536-adb3-0069ef67a41c.png"> 
   * `Manju` with `id` = `12` deposits money 
-<img width="137" alt="image" src="https://user-images.githubusercontent.com/56643076/212564728-70864ad3-a36e-45b5-834a-f1234fd90db0.png">
+<img width="137" alt="image" src="https://user-images.githubusercontent.com/56643076/212564728-70864ad3-a36e-45b5-834a-f1234fd90db0.png"> yes
   
 
