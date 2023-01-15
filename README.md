@@ -41,20 +41,29 @@ price = Amount/Quality;
 
 ### The following scenario is being demonstrated in the following output screens :-  
 
-| Users  | Orders placed by them | Bitcoin Price  | Order Status | Order Comments |
+| Users & Id  | Orders placed by them | Bitcoin Price  | Order Status | Order Comments |
 | ------------- | ------------- | ------------- | ------------- | ------------- | 
-| Anubhuti | Buy 30 Bitcoins with 150 INR  | 5 INR/BTC | Partially fulfilled | 5 BTC bought from Akanksha, 10 BTC bought from Manju ; 15 BTC in 75 INR moved to Open Order Book |
-| Akanksha  | Sell 5 Bitcoins with 25 INR | 5 INR/BTC  | Fulfilled | Complete order sold to Anubhuti |
-| Manju  | Sell 10 Bitcoins with 50 INR | 5 INR/BTC  | Fulfilled | Complete order sold to Anubhuti |
+| Anubhuti , 123| Buy 30 Bitcoins with 150 INR  | 5 INR/BTC | Partially fulfilled | 5 BTC bought from Akanksha, 10 BTC bought from Manju ; 15 BTC in 75 INR moved to Open Order Book |
+| Akanksha , 1234| Sell 5 Bitcoins with 25 INR | 5 INR/BTC  | Fulfilled | Complete order sold to Anubhuti |
+| Manju , 12| Sell 10 Bitcoins with 50 INR | 5 INR/BTC  | Fulfilled | Complete order sold to Anubhuti |
 
 
 ### Use Cases :-  
 
 * Users are added 
-  * "Anubhuti" is added
+  * `Anubhuti` is added
  <img width="313" alt="image" src="https://user-images.githubusercontent.com/56643076/212564389-c01dac14-a881-40ac-9c9c-b9d8a3bc53c7.png">  
-  * "Akanksha" is added, where they are prompted with an error if the try to use a userId that is already in use
+  * `Akanksha` is added, where they are prompted with an error if the try to use a userId that is already in use
 <img width="295" alt="image" src="https://user-images.githubusercontent.com/56643076/212564481-13fe21bd-1213-458e-99b4-590403d72771.png">
-  * "Manju" is added  
-<img width="161" alt="image" src="https://user-images.githubusercontent.com/56643076/212564513-3764fae4-99a9-422e-81e1-99acb842563d.png">
+  * `Manju` is added  
+<img width="161" alt="image" src="https://user-images.githubusercontent.com/56643076/212564513-3764fae4-99a9-422e-81e1-99acb842563d.png">  
+
+* Users start depositing INR and Bitcoin to their accounts, to start trading  
+  * `Anubhuti` with `id` = `123` deposits money  
+<img width="191" alt="image" src="https://user-images.githubusercontent.com/56643076/212564620-4ac4e82c-6d21-4d90-9287-d4bfc9c07f41.png">  
+ * `Akanksha` with `id` = `1234` deposits money  
+<img width="149" alt="image" src="https://user-images.githubusercontent.com/56643076/212564701-38d508eb-fca1-4536-adb3-0069ef67a41c.png"> 
+ * `Manju` with `id` = `12` deposits money 
+<img width="137" alt="image" src="https://user-images.githubusercontent.com/56643076/212564728-70864ad3-a36e-45b5-834a-f1234fd90db0.png">
+  
 
