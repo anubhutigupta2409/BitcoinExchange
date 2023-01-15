@@ -35,4 +35,17 @@ price = Amount/Quality;
 
 * The application should be able to handle a maximum of 1 million open orders without any persistent storage.  
 
-* The application can be a simple console application and does not require REST APIs.
+* The application can be a simple console application and does not require REST APIs.  
+
+## Demo  
+
+### The following scenario is being demonstrated in the following output screens :-  
+
+| Users  | Orders placed by them | Bitcoin Price  | Order Status |
+| ------------- | ------------- | ------------- | ------------- |
+| Anubhuti  | Buy 30 Bitcoins with 150 INR  | 5 INR/BTC | Partially fulfilled |
+| Akanksha  | Content Cell  |  Sell 5 Bitcoins with 25 INR | 5 INR/BTC  | Fulfilled |
+
+### Use Cases :-  
+
+* 
