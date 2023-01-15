@@ -44,7 +44,9 @@ price = Amount/Quality;
 | Users  | Orders placed by them | Bitcoin Price  | Order Status |
 | ------------- | ------------- | ------------- | ------------- |
 | Anubhuti  | Buy 30 Bitcoins with 150 INR  | 5 INR/BTC | Partially fulfilled |
-| Akanksha  | Content Cell  |  Sell 5 Bitcoins with 25 INR | 5 INR/BTC  | Fulfilled |
+| Akanksha  | Sell 5 Bitcoins with 25 INR | 5 INR/BTC  | Fulfilled | 
+| Manju  | Sell 10 Bitcoins with 50 INR | 5 INR/BTC  | Fulfilled | 
+
 
 ### Use Cases :-  
 
