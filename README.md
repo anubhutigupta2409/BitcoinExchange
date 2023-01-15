@@ -2,7 +2,12 @@
   
 ## Design  
 
-* A `User` class that has the following properties: `id`, `name`, `bitcoinBalance`, `inrBalance`. The class should have methods to deposit bitcoin and INR, place buy or sell orders, and check the balance of bitcoin and INR.  
+* A `User` class that has the following properties: `id`, `name`, `bitcoinBalance`, `inrBalance`. The class should have methods to deposit bitcoin and INR, place buy or sell orders, and check the balance of bitcoin and INR. 
+
+* An `Order` class that has the following properties: `type`, `price`, `quantity`. The `price` feature depends on the person making a sell/buy `order` and can be calculated like this :-  
+```
+price = Amount/Number of bitcoins;
+```
 
 * An `OpenOrderBook` class that has two lists of orders, one for buy orders and one for sell orders. The class should have methods to add orders, match orders, and view all open orders.  
 
