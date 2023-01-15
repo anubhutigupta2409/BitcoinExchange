@@ -15,7 +15,10 @@ price = Amount/Quality;
 
 * The `canOrder` method in the User class should check for available quantity and requested quantity. If the available quantity is less than the requested quantity, then the user should be prompted with the error of "Insufficient Balance".  
 
-* The `matchOrders` method in the `OpenOrderBook` class should match orders based on the price and order type, and remove the matched orders from the open order book. If the price and type could not be matched the order is moved to open order book. If price and order type matches and the quantity could not be matched, the order should be partially fulfilled and open order book is iterated over so that the remaining order can be fulfilled by other potential orders, in the end the remaining should go into open order book with the same price, but remaining quantity and amount.
+* The `matchOrders` method in the `OpenOrderBook` class should :  
+    * match orders based on the price and order type, fufill them(transfer INR and bitcoin) and remove the matched orders from the open order book. 
+    * If the price and type could not be matched the order is moved to open order book. 
+    * If price and order type matches and the quantity could not be matched, the order should be partially fulfilled and open order book is iterated over so that the       remaining order can be fulfilled by other potential orders, in the end the remaining should go into open order book with the same price, but remaining quantity       and amount.
 
 * The `addOrder` method in the `OpenOrderBook` class adds order to the open order book in case of partial or unmatched orders.
 * The application should have APIs for adding a new user, depositing bitcoin and INR, placing buy or sell orders, and viewing open orders, user-wise account balance of bitcoin and INR.  
