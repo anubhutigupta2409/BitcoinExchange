@@ -43,11 +43,14 @@ price = Amount/Quality;
 
 | Users  | Orders placed by them | Bitcoin Price  | Order Status | Order Comments |
 | ------------- | ------------- | ------------- | ------------- | ------------- | 
-| Anubhuti | Buy 30 Bitcoins with 150 INR  | 5 INR/BTC | Partially fulfilled | * 5 BTC bought from Akanksha, * 10 BTC bought from Manju ; * 15 BTC in 75 INR moved to Open Order Book |
+| Anubhuti | Buy 30 Bitcoins with 150 INR  | 5 INR/BTC | Partially fulfilled | 5 BTC bought from Akanksha, 10 BTC bought from Manju ; 15 BTC in 75 INR moved to Open Order Book |
 | Akanksha  | Sell 5 Bitcoins with 25 INR | 5 INR/BTC  | Fulfilled | Complete order sold to Anubhuti |
 | Manju  | Sell 10 Bitcoins with 50 INR | 5 INR/BTC  | Fulfilled | Complete order sold to Anubhuti |
 
 
 ### Use Cases :-  
 
-* 
+* Users are added 
+  * "Anubhuti" is added
+ <img width="313" alt="image" src="https://user-images.githubusercontent.com/56643076/212564389-c01dac14-a881-40ac-9c9c-b9d8a3bc53c7.png">
+
