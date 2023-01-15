@@ -50,7 +50,7 @@ price = Amount/Quality;
 
 ### Use Cases :-  
 
-* Users are added 
+* Users are added   
 `Anubhuti` is added
  <img width="313" alt="image" src="https://user-images.githubusercontent.com/56643076/212564389-c01dac14-a881-40ac-9c9c-b9d8a3bc53c7.png">  
 `Akanksha` is added, where they are prompted with an error if the try to use a userId that is already in use
