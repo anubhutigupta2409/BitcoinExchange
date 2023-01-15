@@ -52,9 +52,9 @@ price = Amount/Quality;
 
 * Users are added 
  
-"Anubhuti" is added
+"Anubhuti" is added  
  <img width="313" alt="image" src="https://user-images.githubusercontent.com/56643076/212564389-c01dac14-a881-40ac-9c9c-b9d8a3bc53c7.png">  
-"Akanksha" is added, where they are prompted with an error if the try to use a userId that is already in use
+"Akanksha" is added, where they are prompted with an error if the try to use a userId that is already in use  
 <img width="295" alt="image" src="https://user-images.githubusercontent.com/56643076/212564481-13fe21bd-1213-458e-99b4-590403d72771.png">  
 "Manju" is added  
 <img width="161" alt="image" src="https://user-images.githubusercontent.com/56643076/212564513-3764fae4-99a9-422e-81e1-99acb842563d.png">  
@@ -65,23 +65,23 @@ price = Amount/Quality;
 <img width="191" alt="image" src="https://user-images.githubusercontent.com/56643076/212564620-4ac4e82c-6d21-4d90-9287-d4bfc9c07f41.png">  
 "Akanksha" with `id` = "1234" deposits money  
 <img width="149" alt="image" src="https://user-images.githubusercontent.com/56643076/212564701-38d508eb-fca1-4536-adb3-0069ef67a41c.png"> 
-"Manju" with "id" = "12" deposits money 
+"Manju" with "id" = "12" deposits money  
 <img width="137" alt="image" src="https://user-images.githubusercontent.com/56643076/212564728-70864ad3-a36e-45b5-834a-f1234fd90db0.png">  
 
 * Users place order 
 
-"1234" places sell order 
+"1234" places sell order  
 <img width="192" alt="image" src="https://user-images.githubusercontent.com/56643076/212565313-cc8b1429-a067-4e6a-9daa-a8fa1d830b00.png">
 
 
-"12" places sell order 
+"12" places sell order  
 <img width="191" alt="image" src="https://user-images.githubusercontent.com/56643076/212565289-be67e3c4-85c5-420b-8eb1-499e796b1b1f.png">  
 
 Open Orders are viewed  
 <img width="220" alt="image" src="https://user-images.githubusercontent.com/56643076/212565355-26dddc54-34bc-43e6-9d9c-012078cbbade.png">
 
 
-"123" places buy order 
+"123" places buy order  
 <img width="186" alt="image" src="https://user-images.githubusercontent.com/56643076/212565367-43c28c57-17a7-4f24-ad96-0611a6fbbfbc.png">
 
 Open Orders are viewed  
