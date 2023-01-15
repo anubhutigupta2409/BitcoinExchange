@@ -41,11 +41,11 @@ price = Amount/Quality;
 
 ### The following scenario is being demonstrated in the following output screens :-  
 
-| Users  | Orders placed by them | Bitcoin Price  | Order Status |
-| ------------- | ------------- | ------------- | ------------- |
-| Anubhuti  | Buy 30 Bitcoins with 150 INR  | 5 INR/BTC | Partially fulfilled |
-| Akanksha  | Sell 5 Bitcoins with 25 INR | 5 INR/BTC  | Fulfilled | 
-| Manju  | Sell 10 Bitcoins with 50 INR | 5 INR/BTC  | Fulfilled | 
+| Users  | Orders placed by them | Bitcoin Price  | Order Status | Order Comments |
+| ------------- | ------------- | ------------- | ------------- | ------------- | 
+| Anubhuti | Buy 30 Bitcoins with 150 INR  | 5 INR/BTC | Partially fulfilled | * 5 BTC bought from Akanksha, * 10 BTC bought from Manju ; * 15 BTC in 75 INR moved to Open Order Book |
+| Akanksha  | Sell 5 Bitcoins with 25 INR | 5 INR/BTC  | Fulfilled | Complete order sold to Anubhuti |
+| Manju  | Sell 10 Bitcoins with 50 INR | 5 INR/BTC  | Fulfilled | Complete order sold to Anubhuti |
 
 
 ### Use Cases :-  
