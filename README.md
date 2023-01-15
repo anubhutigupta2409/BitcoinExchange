@@ -2,7 +2,10 @@
   
 ## Design  
 
-* A `User` class that has the following properties: `id`, `name`, `bitcoinBalance`, `inrBalance`. The class should have methods to deposit bitcoin and INR, check fund availability for buy or sell orders, and check the balance of bitcoin and INR. 
+* A `User` class that has the following properties: `id`, `name`, `bitcoinBalance`, `inrBalance`. The class should have methods to :
+  * deposit bitcoin and INR, 
+  * check fund availability for buy or sell orders, 
+  * and check the balance of bitcoin and INR. 
 
 * An `Order` class that has the following properties: `trader`, `type`, `price`, `amount`, `quantity`. The `price` feature here, represents the price of the bitcoin set by the user, and depends on the person making a sell/buy `order` and can be calculated like this :-  
 ```
@@ -11,7 +14,12 @@ price = Amount/Quality;
 
 * An `OpenOrderBook` class that has two queues (to implement FIFO functionality) of orders, one for buy orders and one for sell orders. The class should have methods to add orders, match orders.  
 
-* A `BitcoinExchange` class that acts as the main entry point for the application. It should have a menu-driven console interface that allows users to perform various operations such as adding a new user, depositing bitcoin and INR, placing buy or sell orders, and viewing open orders, user-wise account balance of bitcoin and INR.  
+* A `BitcoinExchange` class that acts as the main entry point for the application. It should have a menu-driven console interface that allows users to perform various operations such as :
+  * adding a new user, 
+  * depositing bitcoin and INR, 
+  * placing buy or sell orders,  
+  * viewing open orders, 
+  * and user-wise account balance of bitcoin and INR.  
 
 * The `canOrder` method in the User class should check for available quantity and requested quantity. If the available quantity is less than the requested quantity, then the user should be prompted with the error of "Insufficient Balance".  
 
