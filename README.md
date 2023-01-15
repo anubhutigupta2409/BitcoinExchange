@@ -4,7 +4,7 @@
 
 * A `User` class that has the following properties: `id`, `name`, `bitcoinBalance`, `inrBalance`. The class should have methods to deposit bitcoin and INR, check fund availability for buy or sell orders, and check the balance of bitcoin and INR. 
 
-* An `Order` class that has the following properties: `type`, `price`, `amount`, `quantity`. The `price` feature here, represents the price of the bitcoin set by the user, and depends on the person making a sell/buy `order` and can be calculated like this :-  
+* An `Order` class that has the following properties: `trader`, `type`, `price`, `amount`, `quantity`. The `price` feature here, represents the price of the bitcoin set by the user, and depends on the person making a sell/buy `order` and can be calculated like this :-  
 ```
 price = Amount/Quality;
 ```
