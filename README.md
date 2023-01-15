@@ -92,7 +92,27 @@ Open Orders are viewed
 <img width="224" alt="image" src="https://user-images.githubusercontent.com/56643076/212565398-e622d430-16b6-47bd-82de-91a285226ce1.png">
 
 "123" remaining balance after the trade  
-<img width="169" alt="image" src="https://user-images.githubusercontent.com/56643076/212565484-8f7e9172-a5a1-4e3c-a4e0-015021bc6c12.png">
+<img width="169" alt="image" src="https://user-images.githubusercontent.com/56643076/212565484-8f7e9172-a5a1-4e3c-a4e0-015021bc6c12.png">  
+ 
+ * Edge case where user can have insuffiecient funds  
+ <img width="283" alt="image" src="https://user-images.githubusercontent.com/56643076/212565825-d51ab9df-572f-414d-afc5-972da990de20.png">  
+ 
+## Software Installations  
+
+Download Java from [here](https://www.java.com/en/download/)  
+  
+## How to run the program 
+  
+* Open Terminal and run the following code to clone the repository  
+```
+git clone https://github.com/anubhutigupta2409/BitcoinExchange.git
+```
+* Change directory (cd) into the project directory and run the following command one by one 
+``` 
+ javac BitcoinExchange.java  
+ java BitcoinExchange  
+```
+
 
 
 
