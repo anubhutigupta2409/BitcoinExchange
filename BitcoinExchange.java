@@ -171,12 +171,16 @@ class OpenOrderBook {
                     sellOrder.getTrader().depositBitcoin(-1*order.getQuantity());
                     sellOrder.getTrader().depositInr(order.getAmount());//for the seller
 
-                    System.out.println("Order fulfilled partially!");
-                    System.out.println("Order sent to open order book!");
+                    System.out.println("Order fulfilled !");
+
                     addOrder(sellOrder); // add remaining order to open order book
                     order.setQuantity(0);
                     break;
                 } else {
+
+                    // order is larger, update the order
+                    order.setQuantity(order.getQuantity() - sellOrder.getQuantity());
+                    order.setAmount(order.getAmount() - sellOrder.getAmount());
 
                     //fulfill the order
                     user.depositBitcoin(order.getQuantity());
@@ -186,9 +190,6 @@ class OpenOrderBook {
                     sellOrder.getTrader().depositInr(order.getAmount());//for the seller
                     
                     System.out.println("Order fulfilled partially!");
-                    // order is larger, update the order
-                    order.setQuantity(order.getQuantity() - sellOrder.getQuantity());
-                    order.setAmount(order.getAmount() - sellOrder.getAmount());
 
                 }
             }
@@ -208,6 +209,7 @@ class OpenOrderBook {
                     buyOrder.getTrader().depositBitcoin(order.getQuantity());
                     buyOrder.getTrader().depositInr(-1*order.getAmount());//for the buyer
 
+
                     // match is found, remove the order
                     order.setQuantity(0);
                     System.out.println("Order fulfilled successfully!");
@@ -223,12 +225,17 @@ class OpenOrderBook {
                     buyOrder.getTrader().depositBitcoin(order.getQuantity());
                     buyOrder.getTrader().depositInr(-1*order.getAmount());//for the buyer
 
-                    System.out.println("Order fulfilled partially!");
-                    System.out.println("Order sent to open order book!");
+                    System.out.println("Order fulfilled!");
+        
                     addOrder(buyOrder); // add remaining order to open order book
                     order.setQuantity(0);
                     break;
                 } else {
+
+                    // order is larger, update the order
+                    order.setQuantity(order.getQuantity() - buyOrder.getQuantity());
+                    order.setAmount(order.getAmount() - buyOrder.getAmount());
+
                     //fulfill the order
                     user.depositBitcoin(-1*order.getQuantity());
                     user.depositInr(order.getAmount());//for the seller
@@ -238,9 +245,7 @@ class OpenOrderBook {
                     
 
                     System.out.println("Order fulfilled partially!");
-                    // order is larger, update the order
-                    order.setQuantity(order.getQuantity() - buyOrder.getQuantity());
-                    order.setAmount(order.getAmount() - buyOrder.getAmount());
+                    
                 }
             }
             if (order.getQuantity() > 0) {
@@ -373,15 +378,15 @@ class BitcoinExchange {
         else {
             System.out.print("Enter order type (buy/sell): ");
             String type = sc.nextLine();
-            System.out.print("Enter amount: ");
-            double amount = sc.nextDouble();
+            System.out.print("Enter price: ");
+            double price = sc.nextDouble();
             System.out.print("Enter quantity: ");
             double quantity = sc.nextDouble();
             sc.nextLine();
 
-            Order order = new Order(user, type, amount, quantity, (double)amount/(double)quantity);
+            Order order = new Order(user, type, (double)price*(double)quantity, quantity, price);
 
-            boolean success = user.canOrder(type, amount, quantity);
+            boolean success = user.canOrder(type, (double)price*(double)quantity, quantity);
             if (success) {
                 openOrderBook.matchOrders(order, user);
             }
@@ -420,7 +425,7 @@ class BitcoinExchange {
         else
         {
         for (Order order : sortedBuyOrders) {
-            System.out.println(order.getQuantity() + "BTC in " + order.getAmount());
+            System.out.println(order.getQuantity() + "BTC with " + order.getAmount());
         }
         }
         
@@ -431,7 +436,7 @@ class BitcoinExchange {
         else
         {
         for (Order order : sortedSellOrders) {
-            System.out.println(order.getQuantity() + "BTC in " + order.getAmount());
+            System.out.println(order.getQuantity() + "BTC with " + order.getAmount());
         }
         }
     }
